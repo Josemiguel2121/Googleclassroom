@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Unblocked Game Hub</title>
+    <style>
+        body { background-color: #191B1D; color: white; font-family: sans-serif; text-align: center; }
+        .game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; padding: 20px; }
+        .game-card { background: #26292B; padding: 15px; border-radius: 8px; text-align: center; cursor: pointer; transition: 0.2s; }
+        .game-card:hover { transform: scale(1.05); background: #3A3F42; }
+        .game-card img { width: 100%; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🎮 Unblocked Hub</h1>
+    <div class="game-grid">
+        <!-- Repeat this card block for each game -->
+        <div class="game-card" onclick="window.location.href='game1.html'">
+            <img src="game1-thumbnail.jpg" alt="Game 1">
+            <h3>Game Name</h3>
+        </div>
+    </div>
+</body>
+</html>
